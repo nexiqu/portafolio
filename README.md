@@ -26,8 +26,8 @@ Juego interactivo relacionado con el tráfico durante las horas pico. El proyect
 
 Juego multijugador de construcción y modificación de una ciudad compartida. Los usuarios pueden colocar edificios, decoraciones y carreteras, y realizar cambios en el entorno. El proyecto utiliza **Supabase** para guardar el estado de la ciudad y permitir que los cambios se mantengan al volver a entrar.
 
-- **Publicación en Vercel:** pendiente de agregar.
-- **Repositorio:** pendiente de agregar.
+- **Versión publicada:** [https://proyecto22-gamma.vercel.app/](https://proyecto22-gamma.vercel.app/)
+- **Repositorio de GitHub:** [https://github.com/nexiqu/Proyecto2](https://github.com/nexiqu/Proyecto2)
 - **Capturas del proyecto:** pendientes de agregar.
 - **Datos y funcionamiento:** la persistencia se realiza mediante Supabase. Los detalles específicos de las tablas y de la actualización entre usuarios se documentarán junto con la versión final.
 
