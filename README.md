@@ -16,10 +16,10 @@ Soy José Armando Brito Realpe, estudiante de **Ingeniería Civil** y actualment
 
 ### Proyecto 1 — Juego del semáforo
 
-Juego interactivo relacionado con el tráfico durante las horas pico. El proyecto plantea una experiencia en la que el jugador debe gestionar situaciones de circulación y semáforos.
+Juego interactivo relacionado con el tráfico durante las horas pico. El proyecto plantea una experiencia en la que el jugador debe gestionar situaciones de circulación y semáforos. En el segundo nivel, **“Dos cruces · Hora pico”**, se controlan dos intersecciones y se muestra información como el tiempo, la puntuación y el nivel de congestión.
 
-- **Enlace publicado:** pendiente de agregar.
-- **Captura del proyecto:** pendiente de agregar.
+- **Enlace publicado:** [https://nexiqu.github.io/proyecto1/](https://nexiqu.github.io/proyecto1/)
+- **Captura:** pendiente de subir como archivo al repositorio para poder mostrarla aquí.
 - **Tecnologías y funcionamiento:** se completarán con los detalles técnicos y la implementación final del proyecto.
 
 ### Proyecto 2 — City Caos
