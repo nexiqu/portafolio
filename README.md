@@ -1,44 +1,50 @@
 # Portafolio — José Armando Brito Realpe
 
-Portafolio académico y personal para presentar quién soy, mis intereses y algunos proyectos que he desarrollado.
+Portafolio académico y personal de José Armando Brito Realpe, estudiante de **Ingeniería Civil** y de una **subespecialización en Ciencias de la Computación**.
 
-## Sobre mí
+## Sitio web
 
-Soy José Armando Brito Realpe, estudiante de **Ingeniería Civil** y actualmente curso una **subespecialización en Ciencias de la Computación**. Me interesa seguir aprendiendo sobre mi carrera, explorar el desarrollo de videojuegos y descubrir nuevos temas y herramientas.
+El portafolio está construido como una página estática de una sola página con **HTML, CSS y JavaScript**, sin frameworks ni procesos de compilación. El diseño usa una estética urbana inspirada en pósters y cultura musical: fondo oscuro, acentos fucsia, violeta y verde ácido, tipografía de gran formato y detalles gráficos. Es adaptable a pantallas móviles.
 
-## Intereses
+**Publicación prevista con GitHub Pages:** https://nexiqu.github.io/portafolio/
 
-- **Música — Young Miko:** me gusta su música y su propuesta artística.
-- **Videojuegos:** me interesa jugar, conocer cómo se desarrollan y aprender a crear experiencias interactivas.
-- **Automovilismo:** me llaman la atención las competencias, los vehículos y el mundo del motorsport.
+Para activarla, abre **Settings → Pages** en este repositorio, selecciona **Deploy from a branch**, elige la rama `main` y la carpeta `/(root)`, y guarda. Después GitHub Pages publicará el archivo `index.html`.
+
+## Sobre mí e intereses
+
+Me interesa seguir aprendiendo sobre mi carrera, descubrir cómo se crean los videojuegos y probar nuevas herramientas.
+
+- **Música — Young Miko:** me gusta su música, su propuesta y su identidad visual.
+- **Videojuegos:** me interesa conocer sus mecánicas y cómo se construyen experiencias interactivas.
+- **Automovilismo:** me atraen la velocidad, la estrategia y la tecnología del motorsport.
 
 ## Proyectos
 
-### Proyecto 1 — Juego del semáforo
+### Proyecto 1 — Control de Tráfico
 
-Juego interactivo relacionado con el tráfico durante las horas pico. El proyecto plantea una experiencia en la que el jugador debe gestionar situaciones de circulación y semáforos. En el segundo nivel, **“Dos cruces · Hora pico”**, se controlan dos intersecciones y se muestra información como el tiempo, la puntuación y el nivel de congestión.
+Juego de gestión de tráfico en el que el jugador coordina los semáforos para mantener el flujo vehicular, evitar congestión y prevenir colisiones. El segundo nivel conecta dos intersecciones que se controlan por separado.
 
-- **Enlace publicado:** [https://nexiqu.github.io/proyecto1/](https://nexiqu.github.io/proyecto1/)
-- **Captura:** pendiente de subir como archivo al repositorio para poder mostrarla aquí.
-- **Tecnologías y funcionamiento:** se completarán con los detalles técnicos y la implementación final del proyecto.
+- **Versión publicada:** https://nexiqu.github.io/proyecto1/
+- **Repositorio:** https://github.com/nexiqu/proyecto1
+- **Tecnologías:** HTML, CSS y JavaScript.
+- **Publicación y ejecución:** GitHub Pages sirve los archivos estáticos; la lógica del juego corre en el navegador.
+- **Datos:** no usa base de datos. La partida y la mejor puntuación se mantienen durante la sesión y pueden reiniciarse al recargar.
 
 ### Proyecto 2 — City Caos
 
-Juego multijugador de construcción y modificación de una ciudad compartida. Los usuarios pueden colocar edificios, decoraciones y carreteras, y realizar cambios en el entorno. El proyecto utiliza **Supabase** para guardar el estado de la ciudad y permitir que los cambios se mantengan al volver a entrar.
+Juego multijugador en el que varias personas construyen y modifican una ciudad compartida de 12 × 12 casillas.
 
-- **Versión publicada:** [https://proyecto22-gamma.vercel.app/](https://proyecto22-gamma.vercel.app/)
-- **Repositorio de GitHub:** [https://github.com/nexiqu/Proyecto2](https://github.com/nexiqu/Proyecto2)
-- **Capturas del proyecto:** pendientes de agregar.
-- **Datos y funcionamiento:** la persistencia se realiza mediante Supabase. Los detalles específicos de las tablas y de la actualización entre usuarios se documentarán junto con la versión final.
+- **Versión publicada:** https://proyecto22-gamma.vercel.app/
+- **Repositorio:** https://github.com/nexiqu/Proyecto2
+- **Tecnologías:** HTML, CSS, JavaScript y Vite.
+- **Publicación y ejecución:** Vercel publica la aplicación; la lógica de `app.js` corre en el navegador y se comunica con Supabase mediante su API REST.
+- **Datos:** Supabase Authentication gestiona el inicio de sesión. La tabla `city_tiles` guarda objetos por sala y casilla; `city_presence` registra jugadores presentes.
+- **Sincronización:** el mapa se consulta aproximadamente cada 800 ms y la lista de jugadores cada 3 segundos. Esta versión usa consultas periódicas, no Supabase Realtime ni WebSockets.
 
-## Sobre este portafolio
+## Sobre el diseño
 
-La intención es crear una página sencilla, clara y visualmente coherente que reúna mis intereses personales y mi trabajo académico. El diseño y la combinación de colores se definirán durante la construcción del sitio.
-
-## Estado del portafolio
-
-Este repositorio contiene por ahora la información inicial y la planificación del contenido. Próximamente se añadirán los archivos del sitio web (index.html, CSS, JavaScript si hace falta) y los recursos visuales.
+Elegí una estética urbana con fondo oscuro, acentos fucsia, violeta y verde ácido, tipografía grande y gráficos inspirados en pósters y stickers. Quería conectar la energía de la música que me gusta con los mundos interactivos que me interesa crear, sin quitar protagonismo a los proyectos.
 
 ---
 
-*Portafolio en desarrollo.*
+*Portafolio en desarrollo continuo.*
